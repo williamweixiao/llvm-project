@@ -69,8 +69,7 @@ bool isFpOrNEON(const MCInst &MI, const MCInstrInfo *MCII);
 
 namespace AArch64 {
 enum OperandType {
-  OPERAND_IMPLICIT_IMM_0 = MCOI::OPERAND_FIRST_TARGET,
-  OPERAND_SHIFT_MSL,
+  OPERAND_SHIFT_MSL = MCOI::OPERAND_FIRST_TARGET,
 };
 } // namespace AArch64
 
